@@ -1,0 +1,8 @@
+server:
+  port: 2021
+  
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      group-id: myGroup-id
